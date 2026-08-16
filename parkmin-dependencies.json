@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "gitDependencies": [],
+  "nugetDependencies": [
+    {
+      "packageName": "sqlite-net-pcl",
+      "version": "1.11.285"
+    },
+    {
+      "packageName": "ObservableCollections.R3",
+      "version": "3.3.4"
+    }
+  ]
+}
