@@ -1,0 +1,21 @@
+{
+  "name": "com.parkminpackages.sqlitetoolkit",
+  "displayName": "ParkMinPackages.SQLiteToolkit",
+  "version": "0.1.0",
+  "license": "MIT",
+  "documentationUrl": "https://github.com/ParkMinPackages/SQLite-Toolkit#readme",
+  "changelogUrl": "https://github.com/ParkMinPackages/SQLite-Toolkit/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ParkMinPackages/SQLite-Toolkit/blob/main/LICENSE.md",
+  "unity": "6000.5",
+  "description": "SQLite toolkit package scaffold for Unity projects.",
+  "keywords": [
+    "unity",
+    "sqlite",
+    "database",
+    "parkminpackages"
+  ],
+  "author": {
+    "name": "ParkMinPackages",
+    "url": "https://github.com/ParkMinPackages"
+  }
+}
