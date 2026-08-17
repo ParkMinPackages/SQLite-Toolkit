@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using R3;
 using SQLite;
 
@@ -37,10 +36,6 @@ namespace ParkMinPackages.SQLiteToolkit
 		public TRecord Read(TKey id) {
 			EnsureNotDisposed();
 			return _connection.Find<TRecord>(id);
-		}
-		public List<TRecord> ReadAll() {
-			EnsureNotDisposed();
-			return _connection.Table<TRecord>().ToList();
 		}
 		public int Count() {
 			EnsureNotDisposed();

@@ -31,7 +31,7 @@ namespace ParkMinPackages.SQLiteToolkit
 			if (_isInitialized) {
 				throw new InvalidOperationException($"{nameof(ReactiveSQLiteTableSynchronizedObservableList<TKey, TRecord, TItem>)} is already initialized.");
 			}
-			List<TRecord> records = _table.ReadAll();
+			List<TRecord> records = _table.Query().ToList();
 			List<TItem> items = records.Select(_itemCreateAction).ToList();
 			if (_comparer != null) {
 				items.Sort(_comparer);
